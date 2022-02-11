@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import logo from '../../images/logo.svg';
-import cartIcon from '../../images/cartIcon.svg';
-import '../Nav/nav.css';
+import logo from '../images/logo.svg';
+import cartIcon from '../images/cartIcon.svg';
 
 
 export default class Nav extends Component {
   render() {
     return (
       <>
-        <nav className='navbar'>
+        <nav className='navbar container mt-4'>
           <div className='d-flex justify-content-between'>
             <div>
               <ul className='list-style d-flex'>
